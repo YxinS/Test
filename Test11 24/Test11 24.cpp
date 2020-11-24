@@ -26,8 +26,9 @@ int main(){
 
     std::string s1("1222222222");
     std::string s2("222222222233333333");
-    Solution S;
-    std::string s3 = S.addStrings(s1,s2);
+    //Solution S;
+    
+    std::string s3 = Solution().addStrings(s1,s2);//S.addStrings(s1,s2);
     std::cout << s3 << std::endl;
 
 
